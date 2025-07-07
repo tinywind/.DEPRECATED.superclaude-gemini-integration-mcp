@@ -29,7 +29,7 @@ Add the following:
   "mcpServers": {
     "superclaude": {
       "command": "node",
-      "args": ["~/superclaude-mcp/superclaude-mcp-server.js"]
+      "args": ["~/superclaude-gemini-integration-mcp/superclaude-mcp-server.js"]
     }
   }
 }
@@ -210,7 +210,7 @@ gemini "/mcp"
 
 ### "Permission denied"
 ```bash
-chmod +x ~/superclaude-mcp/superclaude-mcp-server.js
+chmod +x ~/superclaude-gemini-integration-mcp/superclaude-mcp-server.js
 ```
 
 ## Next Steps

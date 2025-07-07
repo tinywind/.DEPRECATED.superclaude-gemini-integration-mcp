@@ -62,7 +62,7 @@ Or configure using npx:
   "mcpServers": {
     "superclaude": {
       "command": "npx",
-      "args": ["-y", "superclaude-mcp-server"],
+      "args": ["-y", "superclaude-gemini-integration-mcp"],
       "env": {
         "CLAUDE_CONFIG_DIR": "${HOME}/.claude"
       }
