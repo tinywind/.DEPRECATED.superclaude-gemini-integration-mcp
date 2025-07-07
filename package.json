@@ -1,6 +1,6 @@
 {
   "name": "superclaude-gemini-integration-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for SuperClaude - brings SuperClaude commands to Gemini CLI",
   "type": "module",
   "main": "superclaude-mcp-server.js",
