@@ -1,0 +1,33 @@
+{
+  "name": "superclaude-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for SuperClaude - brings SuperClaude commands to Gemini CLI",
+  "type": "module",
+  "main": "superclaude-mcp-server.js",
+  "bin": {
+    "superclaude-mcp": "./superclaude-mcp-server.js"
+  },
+  "scripts": {
+    "start": "node superclaude-mcp-server.js",
+    "dev": "node --watch superclaude-mcp-server.js",
+    "test": "node test-mcp-server.js"
+  },
+  "keywords": [
+    "mcp",
+    "superclaude",
+    "gemini-cli",
+    "ai-tools",
+    "claude"
+  ],
+  "author": "SuperClaude Community",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.0"
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
