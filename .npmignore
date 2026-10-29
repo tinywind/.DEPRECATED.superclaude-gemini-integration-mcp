@@ -2,6 +2,7 @@
 .git
 .gitignore
 node_modules/
+.tmp/
 .idea/
 *.log
 .DS_Store
