@@ -10,7 +10,8 @@
   "scripts": {
     "start": "node superclaude-mcp-server.js",
     "dev": "node --watch superclaude-mcp-server.js",
-    "test": "node test-mcp-server.js"
+    "test": "node --test test/mcp.test.js",
+    "test:manual": "node test-mcp-server.js"
   },
   "keywords": [
     "mcp",
@@ -22,12 +23,13 @@
   "author": "SuperClaude Community",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.15.0"
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
-    "js-yaml": "^4.1.0"
+    "js-yaml": "^5.5.0"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   }
 }

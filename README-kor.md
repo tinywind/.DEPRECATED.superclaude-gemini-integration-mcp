@@ -5,7 +5,7 @@ SuperClaude의 모든 기능을 Gemini CLI에서 사용할 수 있게 해주는 
 ## 전제 조건
 
 - SuperClaude가 Claude Code에 이미 설치되어 있어야 합니다
-- Node.js 18 이상
+- Node.js 20 이상
 - Gemini CLI 설치 완료
 
 ## 설치
@@ -208,7 +208,7 @@ gsc-persona "security for threat modeling"
 
 1. Gemini CLI 재시작
 2. 설정 파일 경로 확인
-3. Node.js 버전 확인 (18+)
+3. Node.js 버전 확인 (20+)
 
 ### 명령어가 작동하지 않을 때
 

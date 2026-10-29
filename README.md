@@ -5,7 +5,7 @@ An MCP server that brings all SuperClaude features to Gemini CLI.
 ## Prerequisites
 
 - SuperClaude must already be installed in Claude Code
-- Node.js 18 or higher
+- Node.js 20 or higher
 - Gemini CLI installed
 
 ## Installation
@@ -208,7 +208,7 @@ gsc-persona "security for threat modeling"
 
 1. Restart Gemini CLI
 2. Check configuration file path
-3. Verify Node.js version (18+)
+3. Verify Node.js version (20+)
 
 ### Commands Not Working
 
